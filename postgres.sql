@@ -6,7 +6,7 @@ CREATE TABLE products (
 	description text NOT NULL,
 	category varchar(32) NOT NULL,
 	default_price DECIMAL NOT NULL,
-	primary key (product_id),
+	primary key (product_id)
 );
 
 CREATE TABLE features (
